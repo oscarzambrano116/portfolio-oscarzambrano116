@@ -1,9 +1,10 @@
 import React from 'react';
+
 import Link from 'next/link';
 
 const Header = () => {
   return (
-    <> 
+    <>
       <Link href="/">
         <a>Home</a>
       </Link>
@@ -21,6 +22,6 @@ const Header = () => {
       </Link>
     </>
   );
-}
+};
 
 export default Header;

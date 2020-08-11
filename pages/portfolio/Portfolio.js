@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {Header} from '../../components/shared/Header';
 
 const Portfolio = () => {
@@ -8,7 +9,7 @@ const Portfolio = () => {
       <h1>Portfolio</h1>
     </>
   );
-}
+};
 
 export default Portfolio;
 
