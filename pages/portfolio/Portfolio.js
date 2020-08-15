@@ -1,14 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Link from 'next/link';
 
 import {BaseLayout} from 'layouts/BaseLayout';
 
 const Portfolio = ({posts}) => {
   const renderPosts = () => {
     return (
-      posts.map(({id}) => {
+      posts.map(({id, title}) => {
         return (
-          <li key={id}>{id}</li>
+          <li key={id}>
+            <Link href={'/portfolio/[id]'} as={`/portfolio/${id}`} >
+              <a>{title}</a>
+            </Link>
+          </li>
         );
       })
     );
