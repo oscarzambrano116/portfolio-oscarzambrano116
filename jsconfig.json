@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "shared/*": ["components/shared/*"],
+      "layouts/*": ["components/layouts/*"]
+    }
+  }
+}

@@ -1,13 +1,12 @@
 import React from 'react';
 
-import {Header} from '../../components/shared/Header';
+import {BaseLayout} from 'layouts/BaseLayout';
 
 const Blog = () => {
   return (
-    <>
-      <Header />
+    <BaseLayout>
       <h1>Blog</h1>
-    </>
+    </BaseLayout>
   );
 };
 

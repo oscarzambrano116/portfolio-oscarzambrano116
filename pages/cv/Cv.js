@@ -1,13 +1,12 @@
 import React from 'react';
 
-import {Header} from '../../components/shared/Header';
+import {BaseLayout} from 'layouts/BaseLayout';
 
 const Cv = () => {
   return (
-    <>
-      <Header />
+    <BaseLayout>
       <h1>Cv</h1>
-    </>
+    </BaseLayout>
   );
 };
 
